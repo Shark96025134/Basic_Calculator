@@ -1,7 +1,9 @@
 # Basic_Calculator
-class Calculator:
+    class Calculator:
+    
     def add(self,a,b):
-        return a+b
+       
+       return a+b
     
     def sub(self,a,b):
         return a-b
@@ -13,9 +15,9 @@ class Calculator:
         return a/b
 
 
-mycalcus = Calculator()
+    mycalcus = Calculator()
 
-while True:
+    while True:
 
     print("1.Add")
     
@@ -46,6 +48,6 @@ while True:
         elif (choice == 4):
             print("Result is: ",mycalcus.divide(a,b))
 
-else:
+    else:
 
     print("Invalid Input")
